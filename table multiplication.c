@@ -1,13 +1,14 @@
 #include <stdio.h>
 
 int main () {
-    int n;
+    long long int n; // Changed from int to long long int
     int i; 
 
     printf("Please enter your number:");
-    scanf("%d", &n);
+    scanf("%lld", &n); // %lld (long+long+decimal) instead of %d
     for(i = 1; i <= 10; i++) {
-    printf("%d multiplies by %d= %d\n", n, i, n*i);
+        // %lld using for n and n*1
+    printf("%lld multiplies by %d= %lld\n", n, i, n*i);
     }
     return 0;
 }
