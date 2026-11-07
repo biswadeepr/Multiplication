@@ -7,7 +7,7 @@ int main () {
     printf("Please enter your number:");
     scanf("%lld", &n); // %lld (long+long+decimal) instead of %d
     for(i = 1; i <= 10; i++) {
-        // %lld using for n and n*1
+        // %lld using for n and (n*1)
     printf("%lld multiplies by %d= %lld\n", n, i, n*i);
     }
     return 0;
